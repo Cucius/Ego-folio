@@ -1,0 +1,99 @@
+:root{
+    --backgroundColor: #767676;  
+    --lightColor: #008b8b;
+    --fontColor: #022c2c;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    display: block;
+    flex: 1 0 100%;
+    text-align: start;
+    padding: 20px;
+    background-color: var(--lightColor);
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--lightColor);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration-style: none;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+body{
+    background-color: var(--backgroundColor) ;
+    margin-left: 5px;
+    color: var(--fontColor);
+}
+
+figure{
+    display: flex;
+    flex: 1 0 100%;
+    position: fixed;
+}
+
+p{
+    display:block;
+    position: fixed;
+    margin-right: 50px;
+    border: 2px dashed whitesmoke;
+    flex: 1 0 100%;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+footer{
+   text-align: center;
+}
+h5{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.profile {
+    border-radius: 4%;
+    width: 20%;
+    margin: 25px;
+    border: 1px solid var(--lightColor);
+    box-shadow:   
+    2.8px 2.8px 2.2px rgba(2, 44, 44, 0.02),
+    6.7px 6.7px 5.3px rgba(2, 44, 44, 0.032),
+    12.5px 12.5px 10px rgba(2, 44, 44, 0.038),
+    22.3px 22.3px 17.9px rgba(2, 44, 44, 0.044),
+    41.8px 41.8px 33.4px rgba(2, 44, 44, 0.054),
+    100px 100px 80px rgba(2, 44, 44, 0.07)
+  ;
+}
+
+.newest{
+
+}
+
+.past {
+
+}
